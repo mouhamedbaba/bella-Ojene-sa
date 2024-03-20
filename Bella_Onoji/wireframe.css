@@ -1,0 +1,141 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height:60px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.logo{
+    background-color: bisque;
+    height: 100%;
+    width: 10%;
+    margin: 0px;
+}
+.nav-links{
+    background-color: brown;
+    height: 100%;
+    width: 30%;
+}
+
+.hero{
+    position: relative;
+    height: 500px;
+    border: 1px solid black;
+
+}
+.hero-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.hero-text-content{
+    background-color: #36552B;
+    width: 100%;
+    height: 70%;
+}
+.hero-cta-content{
+    background-color: #347CEA;
+    width: 100%;
+    height: 30%;
+}
+.section1{
+    margin-top: 10px;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.img-landing-container{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #815D5D;
+}
+.row-1-container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.row-title-container{
+    height: 10%;
+    background-color: #3FAE6C;
+    width: 80%;
+}
+.row-1-row{
+    height: 90%;
+    border: 1px solid black;
+    width: 80%;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.row-contact{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    gap: 6px;
+}
+.col-6{
+    background-color: #D9D9D9;
+    height: 100%;
+    width: 50%;
+
+}
+.col-8{
+    height: 50%;
+    width: 70%;
+    background-color: #A6219D;
+}
+.col-4{
+    height: 100%;
+    width: 30%;
+    background-color: #1A2565;
+
+}
+.footer{
+    height: 50px;
+    background-color: #131112;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.col-reverse{
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+

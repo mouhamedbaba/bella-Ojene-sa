@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.div1{
+    border: 1.5px solid black;
+    height: 90%;
+    padding: 15px;
+}
+
+.a{
+    background-color: #ED292A;
+    height: 10%;
+}
+.b{
+    margin-top: 8px;
+    background-color: #EEAB29;
+    height: 5%; 
+}
+.c{
+    margin-top: 15px;
+    padding: 0px 10%  0px 10%;
+    height: 60%;
+}
+.ca, .cb{
+    display: flex;
+    height: 50%;
+    background-color: brown;
+    width: 100%;
+}
+.caa, .cab, .cba , .cbb{
+    height: 100%;
+    width: 100%;
+}
+.caa{
+    background-color: #A6BF0C;
+}
+.cab{
+    background-color: #0D1FBF;
+}
+.cba{
+    background-color: #920DC0;
+}
+.cbb{
+    background-color: #BF0D0D;
+}
+
+.d{
+    margin-top: 10px;
+    background-color: #EE2A7C;
+    height: 15%;
+}

@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+.a{
+    height: 10%;
+    background-color: #400303;
+}
+.b{
+    margin-top: 3px;
+    height: 20%;
+    background-color: #160340;
+}
+.c{
+    margin-top: 15px;
+    height: 50%;
+    background-color: #3F0340;
+}
+.d{
+    margin-top: 10px;
+    height: 5%;
+    background-color: #373334;
+}
+.e{
+    margin-top: 5px;
+    height: 15%;
+    background-color: #BFA730;
+}
+
